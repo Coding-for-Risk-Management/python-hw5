@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class bond:
+class Bond:
     def __init__(self):
         self.face = (round(np.random.uniform()*10, 0)+1)*1e6
         self.couponrate = round(np.random.uniform()/3, 3)
